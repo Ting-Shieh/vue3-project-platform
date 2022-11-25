@@ -1,0 +1,76 @@
+[
+  {
+    "path": "/chart",
+    "name": "chart",
+    "meta": {
+      "title": "chart",
+      "icon": "chart"
+    },
+    "props": {
+      "default": false
+    },
+    "children": [],
+    "instances": {},
+    "leaveGuards": {
+      "Set(0)": []
+    },
+    "updateGuards": {
+      "Set(0)": []
+    },
+    "enterCallbacks": {},
+    "components": {}
+  },
+  {
+    "path": "/user",
+    "redirect": "/user/manage",
+    "meta": {
+      "title": "user",
+      "icon": "personnel"
+    },
+    "props": {
+      "default": false
+    },
+    "children": [
+      {
+        "path": "/user/manage",
+        "meta": {
+          "title": "userManage",
+          "icon": "personnel-manage"
+        },
+        "children": []
+      },
+      {
+        "path": "/user/role",
+        "meta": {
+          "title": "roleList",
+          "icon": "role"
+        },
+        "children": []
+      },
+      {
+        "path": "/user/permission",
+        "meta": {
+          "title": "permissionList",
+          "icon": "permission"
+        },
+        "children": []
+      }
+    ],
+    "instances": {},
+    "leaveGuards": {
+      "Set(0)": []
+    },
+    "updateGuards": {
+      "Set(0)": []
+    },
+    "enterCallbacks": {},
+    "components": {
+      "default": {
+        "__name": "index",
+        "__scopeId": "data-v-13877386",
+        "__file": "src/layout/index.vue",
+        "__hmrId": "13877386"
+      }
+    }
+  }
+]
